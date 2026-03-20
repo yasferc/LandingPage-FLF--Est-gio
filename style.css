@@ -127,8 +127,8 @@ section{
   
 }
 
-.card {
-  background-color: #ff0000;
+.cardM {
+  background-color: #efefef;
   padding: 25px;
   border-radius: 10px;
   flex: 1;
@@ -179,9 +179,6 @@ section{
 
 }
 
-
-  
-
 .cards-wrapper {
   display: flex;
   flex-direction: row; 
@@ -196,7 +193,10 @@ section{
   height: 200px; 
   background-color: white;
   border-radius: 12px;
-   
+   padding: 25px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 280px;
   display: flex;
   padding: 0 ;
   display: block;
